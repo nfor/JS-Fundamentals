@@ -1,9 +1,5 @@
-const args = process.argv.slice(2);
+// 4-concat.js
+const first = process.argv[2];
+const second = process.argv[3];
 
-// Check if exactly two arguments were provided
-if (args.length !== 2) {
-  console.log("Please provide exactly two arguments");
-} else {
-  // Print the arguments in the specified format
-  console.log(`${args[0]} is ${args[1]}`);
-}
+console.log(`${first} is ${second}`);
